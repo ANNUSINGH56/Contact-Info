@@ -1,0 +1,56 @@
+body{
+padding:0px;
+margin:0px;
+}
+.container{
+position:absolute;
+top:30%;
+left:30%;
+padding:50px;
+transform:(-50%,-50%);
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+transition:-5s;
+border-top:45px solid #fc0570;
+}
+.container:hover{
+box-shadow:0 10px 30px rgba(0,0,0,.7);
+}
+h2{
+margin:0px;
+padding:0 0 10px;
+border-bottom:2px solid #fc0570;
+text-transform:uppercase;
+}
+ul{
+margin:0px;
+padding:0px;
+}
+ul li{
+position:relative;
+list-style:none;
+margin:20px 0;
+}
+ul li:last-child{
+margin-bottom:0;
+}
+ul .icon{
+position:relative;
+top:3px6:37 PM 8/10/2020;
+color:#fc0570;
+width:45px;
+vertical-align:top;
+padding:10px;
+}
+ul .info{
+display:inline-block;
+font-size:20px;
+}
+ul .info{
+transition:.5;
+text-decoration:none;
+}
+ul .info:hover{
+color:#fc0570;
+font-size:21px;
+transition:1s;
+}
